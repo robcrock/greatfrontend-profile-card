@@ -10,6 +10,8 @@ if (!rootElement) {
 
 createRoot(rootElement).render(
   <StrictMode>
-    <App />
+    <div className="w-full min-h-screen flex items-start justify-center pt-[200px]">
+      <App />
+    </div>
   </StrictMode>
 );
